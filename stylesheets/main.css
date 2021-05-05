@@ -1,0 +1,113 @@
+
+body {
+  width: 100%;
+}
+
+.top-nav-bar {
+  background: #b50e0e;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.top-nav-bar a {
+  font-family: arial;
+  padding-right: 5px;
+  padding-top: 5px;
+  color: white;
+  float: right;
+}
+
+.top-nav-bar h1 {
+  font-size: 25;
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+  float: left;
+}
+
+.bottom-nav-bar {
+  background: #424242;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bottom-nav-bar a {
+  font-family: arial;
+  color: white;
+  float: right;
+  padding-right: 20px;
+}
+
+section {
+  vertical-align: top;
+  width: 100%;
+  display: table;
+}
+
+section > div {
+  display: table-cell;
+  vertical-align:top;
+  height: 100%;
+}
+
+.right-content {
+  padding-top: 25px;
+}
+
+.left-content {
+  width: 70%;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.left-content h2 {
+  font-size: 25;
+  font-weight: bold;
+  font-family: arial;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.left-content p {
+  font-size: 16;
+  font-family: arial;
+  padding-top: 10px;
+}
+
+.left-content .description {
+  padding-left: 20px;
+  width: 90%;
+}
+
+.right-content h1 {
+  font-size: 25;
+  font-weight: bold;
+  font-family: arial;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+div.right-content > img {
+  padding-left: 100px;
+  padding-bottom: 25px;
+  width: 70%;
+  height: auto;
+}
+
+.footer {
+  background: #424242;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+}
+
+.footer p {
+  color: white;
+  font-size: 16;
+  font-family: arial;
+}
